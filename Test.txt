@@ -1,0 +1,10 @@
+This is a test file to see whether my user id and password - Test@123 is captured by the 
+DLP tool or not 
+Contact - Varun Jain 
+varun.jain01@infosys.com 
+
+Crown Jewel 
+IP info 
+Credit card 1234567890123456
+Pin 0000 
+API Key - abcdef12345
