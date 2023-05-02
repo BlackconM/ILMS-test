@@ -1,0 +1,39 @@
+Below are the sample api keys for which we need to enable detection accordingly
+
+alphanumeric string between 20 and 128 characters regex pattern has to be created
+
+apikey1234abcdefghij0123456789
+apiKey = "a1b2c33d4e5f6g7h8i9jakblc", 
+apiKey = 'a1b2c33d4e5f6g7h8i9jakblc',
+ApiKey = 'a1b2c33d4e5f6g7h8i9jakblc'
+
+
+Below are the keyword matches 
+
+'api_key', api_key, API_KEY
+setApiKeyPrefix("App");
+setApiKey("API_KEY")
+
+condition apikey= alphanumeric string between 20 and 128 characters
+
+if the file name is apikey.properties
+
+private static final String PROP_FILE = "apikey.properties";
+
+PropertiesReader.getProperty("APP_KEY");
+PropertiesReader.getProperty("APP_SECRET");
+PropertiesReader.getProperty("ACCESS_TYPE");
+
+BuildConfig.AppKey
+BuildConfig.AppSecret
+BuildConfig.AccessType
+
+String apiKey = System.getenv("API_KEY");
+
+def authenticate_with_api_key
+
+key = api.ApiKey()
+
+api_keys_api = api.APIKeysApi(api.ApiClient(configuration))
+
+return api_keys_api.create_api_key(key, api_version)
