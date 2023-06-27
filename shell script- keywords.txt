@@ -1,0 +1,38 @@
+Condition 1:-
+
+keywords matching the below- Match count-1
+
+ # cd /etc/cron 
+AND
+"/var/www/vhosts/example.com/httpdocs/backups"
+
+
+Condition 2:-
+
+#!/bin/bash or #/bin/bash or #!/usr/bin/env bash or or #/usr/bin/env bash
+
+AND
+
+echo " text" or echo "text"or echo -n "text "or echo -en "text"or echo text
+AND
+content="$content. Log: Backup duration: $scripttime"
+
+
+Condition 3
+
+All the below keywords should be in the same file
+
+@SQLClone_ImageName
+@SQLClone_MachineName 
+@SQLClone_UserName
+@SQLClone_OriginDatabaseName 
+ 'ServerURL' = 'http://
+
+Condition 4
+
+All the below keywords should be in the same file
+DBUSER=
+PASS=
+SRC_DIR=/home/admin/script
+REMOTE_BACKUP_DIR=/root/mysql/backup
+
